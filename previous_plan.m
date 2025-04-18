@@ -11,8 +11,8 @@ STEPS_PER_CM = 800 / CM_PER_REVOLUTION;
 reverseKinematics = @(x,y,z) [x + y; x - y; x - y + z];
 
 %%
-init_point_cm = [0; 0; 0];
-final_point_cm = [1; 2; 3];
+init_point_cm = [2; 0; 7];
+final_point_cm = [1; 5; 3];
 
 %
 init_step = init_point_cm * STEPS_PER_CM;

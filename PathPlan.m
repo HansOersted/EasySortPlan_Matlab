@@ -19,8 +19,8 @@ A = STEPS_PER_CM * [1 1 0 ;
                     1 -1 1];
 
 %%
-init_point = [0;0;0];
-final_point = [1,2,3];
+init_point = [2; 0; 7];
+final_point = [1; 5; 3];
 %
 delta_position = final_point' - init_point;
 delta_motor = A * delta_position;
