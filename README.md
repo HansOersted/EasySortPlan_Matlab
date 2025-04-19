@@ -1,6 +1,9 @@
 # Path Plan in EasySort
 
-This repos give the path plan examples in the task space.
+This repo plays with the different path plan methods.
+
+p0 = [2; 0; 7];  
+pf = [1; 5; 3];
 
 ### Path plan in motor space (current):
 
